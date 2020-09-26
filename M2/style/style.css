@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: 'Fira Mono', monospace;
+}
+
+/*
+article {
+    display: flex;
+    flex-flow: row;
+    background-color: aquamarine;
+    padding: 1em;
+    justify-content: space-evenly;
+    align-items: center;
+}
+*/
