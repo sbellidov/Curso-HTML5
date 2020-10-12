@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <meta charset="utf-8" />
+    <script src="M3-script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header><h1>Calculadora (Módulo 3)</h1></header>
+
+    <nav>
+      <button id="cuadrado" onclick="cuadrado()">x<sup>2</sup></button>
+      <button id="modulo" onclick="mod()">Modulo</button>
+      <button id="factorial" onclick="fact()">Factorial</button>
+      <br />
+      <button id="suma" onclick="operando('sum')">+</button>
+      <button id="resta" onclick="operando('res')">-</button>
+      <button id="multip" onclick="operando('mul')">*</button>
+      <button id="divis" onclick="operando('div')">/</button>
+      <button id="resto" onclick="operando('mod')">resto</button>
+      <button id="pot" onclick="operando('pot')">^</button>
+      <button id="igual" onclick="eq()">=</button>
+      <br />
+      <button id="sumatorio" onclick="sumatorio()">sumatorio</button>
+      <button id="ordenar" onclick="ordenar()">ordenar</button>
+      <button id="revertir" onclick="revertir()">revertir</button>
+      <button id="quitar" onclick="quitar()">quitar</button>
+    </nav>
+
+    <main>
+      <input
+        type="text"
+        id="pantalla"
+        placeholder="Introduzca número"
+        onclick="vaciar()"
+      />
+      <div>
+        <h2 id="info" class="grande" title="Info sobre el número">
+          Info sobre el número
+        </h2>
+      </div>
+    </main>
+    <footer>Created by Sergio Bellido @ 2020</footer>
+  </body>
+</html>
